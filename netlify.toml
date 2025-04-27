@@ -1,6 +1,6 @@
 [build]
   command = "npm install && ionic build --prod"
-  publish = "www/browser" # Los starters 'blank' usan 'www' directamente
+  publish = "www" # Los starters 'blank' usan 'www' directamente
 
 [[redirects]]
   from = "/*"
